@@ -40,7 +40,7 @@ public class Launcher : MonoBehaviour
             {
                 if (force <= maxForce)
                 {
-                    force += 1000 * Time.deltaTime;
+                    force += 1800 * Time.deltaTime;
                 }
             }
             if (Input.GetKeyUp(KeyCode.Space))
